@@ -1,5 +1,8 @@
 {
-  "private": true,
+  "name": "MQTTX",
+  "version": "2.0.0-beta.1",
+  "description": "A Powerful and All-in-One MQTT 5.0 client toolbox for Desktop, CLI and WebSocket.",
+  "author": "EMQX Team <yusf@emqx.io>",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -13,5 +16,6 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "MQTTX-2.0"
+  "license": "Apache-2.0",
+  "repository": "https://github.com/emqx/MQTTX"
 }
