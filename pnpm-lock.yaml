@@ -20,6 +20,9 @@ importers:
       turbo:
         specifier: latest
         version: 1.10.15
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   apps/cli:
     dependencies:
@@ -99,18 +102,12 @@ importers:
       types:
         specifier: workspace:*
         version: link:../../packages/types
-      typescript:
-        specifier: ^4.7.3
-        version: 4.9.5
 
   packages/eslint-config-custom:
     devDependencies:
       eslint-config-turbo:
         specifier: ^1.10.12
         version: 1.10.12(eslint@8.48.0)
-      typescript:
-        specifier: ^4.5.3
-        version: 4.9.5
 
   packages/tsconfig: {}
 
@@ -122,9 +119,6 @@ importers:
       '@types/node':
         specifier: ^17.0.43
         version: 17.0.45
-      typescript:
-        specifier: ^4.8.4
-        version: 4.9.5
 
 packages:
 
