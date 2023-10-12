@@ -1,5 +1,5 @@
 {
-  "name": "MQTTX",
+  "name": "mqttx",
   "version": "2.0.0-beta.1",
   "description": "A Powerful and All-in-One MQTT 5.0 client toolbox for Desktop, CLI and WebSocket.",
   "author": "EMQX Team <yusf@emqx.io>",
