@@ -87,6 +87,6 @@ import Versions from './components/Versions.vue'
   </div>
 </template>
 
-<style lang="less">
-@import './assets/css/styles.less';
+<style lang="scss">
+@import './assets/css/styles.scss';
 </style>

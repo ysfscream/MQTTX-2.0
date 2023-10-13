@@ -4,7 +4,19 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**"]
+      "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**", "out/**", "!out/cache/**"]
+    },
+    "build:win": {
+      "dependsOn": ["^build:win"],
+      "outputs": ["dist/**", "!dist/cache/**"]
+    },
+    "build:mac": {
+      "dependsOn": ["^build:mac"],
+      "outputs": ["dist/**", "!dist/cache/**"]
+    },
+    "build:linux": {
+      "dependsOn": ["^build:linux"],
+      "outputs": ["dist/**", "!dist/cache/**"]
     },
     "lint": {},
     "dev": {

@@ -5,6 +5,9 @@
   "homepage": "https://mqttx.app",
   "scripts": {
     "build": "turbo run build",
+    "build:mac": "turbo run build:mac",
+    "build:win": "turbo run build:win",
+    "build:linux": "turbo run build:linux",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write ."
