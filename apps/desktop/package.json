@@ -3,8 +3,8 @@
   "version": "2.0.0-alpha.1",
   "description": "MQTTX Desktop - An MQTT client for the desktop",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://www.electronjs.org",
+  "author": "EMQX Team <yusf@emqx.io>",
+  "homepage": "https://mqttx.app",
   "scripts": {
     "dev": "electron-vite dev",
     "build": "npm run typecheck && electron-vite build",
