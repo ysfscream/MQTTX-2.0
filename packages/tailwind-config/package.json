@@ -2,8 +2,8 @@
   "name": "tailwind-config",
   "version": "0.0.0",
   "private": true,
-  "main": "index.ts",
-  "types": "index.ts",
+  "main": "tailwind.config.ts.ts",
+  "types": "tailwind.config.ts.ts",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
