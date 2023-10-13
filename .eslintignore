@@ -1,6 +1,10 @@
-out
+.gitignore
 dist
+release
 pnpm-lock.yaml
+pnpm-workspace.yaml
 LICENSE.md
+LICENSE
 tsconfig.json
 tsconfig.*.json
+node_modules

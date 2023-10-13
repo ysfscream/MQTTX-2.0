@@ -27,10 +27,24 @@ yarn-error.log*
 # turbo
 .turbo
 
-# vscode
-.vscode
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Build
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Output of Releases
+*.tgz
+package
+release
 dist
-releases
-.mqttx_builds
+out

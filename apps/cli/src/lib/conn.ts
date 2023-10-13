@@ -10,7 +10,7 @@ const conn = (options: ConnectOptions) => {
 
   config && (options = loadConfig('conn', config))
   save && saveConfig('conn', options)
-  
+
   const { maximumReconnectTimes } = options
 
   const connOpts = parseConnectOptions(options, 'conn')

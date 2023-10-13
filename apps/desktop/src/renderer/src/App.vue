@@ -21,10 +21,7 @@ import Versions from './components/Versions.vue'
     </div>
     <div class="link-item link-dot">•</div>
     <div class="link-item">
-      <a
-        target="_blank"
-        href="https://github.com/alex8088/quick-start/tree/master/packages/create-electron"
-      >
+      <a target="_blank" href="https://github.com/alex8088/quick-start/tree/master/packages/create-electron">
         create-electron
       </a>
     </div>
@@ -72,9 +69,7 @@ import Versions from './components/Versions.vue'
         <h2 class="title">Source Code Protection</h2>
         <p class="detail">
           Supported via built-in plugin <span>bytecodePlugin</span>. See
-          <a target="_blank" href="https://electron-vite.org/guide/source-code-protection.html">
-            docs
-          </a>
+          <a target="_blank" href="https://electron-vite.org/guide/source-code-protection.html"> docs </a>
           .
         </p>
       </article>
