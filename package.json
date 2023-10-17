@@ -11,6 +11,7 @@
     "build:win": "turbo run build:win",
     "build:linux": "turbo run build:linux",
     "build:cli": "turbo run build:cli",
+    "build:web": "turbo run build:web",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write ."

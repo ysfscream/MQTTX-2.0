@@ -10,6 +10,10 @@
       "dependsOn": ["^build:cli"],
       "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**"]
     },
+    "build:web": {
+      "dependsOn": ["^build:web"],
+      "outputs": ["dist/**", "!dist/cache/**"]
+    },
     "build:win": {
       "dependsOn": ["^build:win"],
       "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]

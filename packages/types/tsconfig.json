@@ -1,5 +1,5 @@
 {
   "extends": "tsconfig/types.json",
-  "include": ["src"],
+  "include": ["base.ts", "cli.ts", "desktop.ts", "index.ts"],
   "exclude": ["node_modules"]
 }
