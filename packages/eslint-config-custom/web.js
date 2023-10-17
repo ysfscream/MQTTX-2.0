@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ['./common.js'],
+  extends: ['./base.js'],
 }
