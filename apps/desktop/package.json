@@ -2,9 +2,9 @@
   "name": "mqttx-desktop",
   "version": "2.0.0-alpha.1",
   "description": "MQTTX Desktop - An MQTT client for the desktop",
-  "main": "./out/main/index.js",
   "author": "EMQX Team <yusf@emqx.io>",
   "homepage": "https://mqttx.app",
+  "main": "./out/main/index.js",
   "scripts": {
     "dev": "electron-vite dev",
     "build": "npm run typecheck && electron-vite build",

@@ -6,17 +6,21 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**", "out/**", "!out/cache/**"]
     },
+    "build:cli": {
+      "dependsOn": ["^build:cli"],
+      "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**"]
+    },
     "build:win": {
       "dependsOn": ["^build:win"],
-      "outputs": ["dist/**", "!dist/cache/**"]
+      "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]
     },
     "build:mac": {
       "dependsOn": ["^build:mac"],
-      "outputs": ["dist/**", "!dist/cache/**"]
+      "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]
     },
     "build:linux": {
       "dependsOn": ["^build:linux"],
-      "outputs": ["dist/**", "!dist/cache/**"]
+      "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]
     },
     "lint": {},
     "dev": {
