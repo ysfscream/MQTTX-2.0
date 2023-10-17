@@ -4,27 +4,27 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**", "out/**", "!out/cache/**"]
+      "outputs": ["dist/**", "release/**", "out/**"]
     },
     "build:cli": {
       "dependsOn": ["^build:cli"],
-      "outputs": ["dist/**", "!dist/cache/**", "release/**", "!release/cache/**"]
+      "outputs": ["dist/**", "release/**"]
     },
     "build:web": {
       "dependsOn": ["^build:web"],
-      "outputs": ["dist/**", "!dist/cache/**"]
+      "outputs": ["dist/**"]
     },
     "build:win": {
       "dependsOn": ["^build:win"],
-      "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]
+      "outputs": ["dist/**", "out/**"]
     },
     "build:mac": {
       "dependsOn": ["^build:mac"],
-      "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]
+      "outputs": ["dist/**", "out/**"]
     },
     "build:linux": {
       "dependsOn": ["^build:linux"],
-      "outputs": ["dist/**", "!dist/cache/**", "out/**", "!out/cache/**"]
+      "outputs": ["dist/**", "out/**"]
     },
     "lint": {},
     "dev": {
