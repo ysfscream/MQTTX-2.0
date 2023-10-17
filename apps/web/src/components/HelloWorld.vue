@@ -6,6 +6,7 @@ defineProps<{
 
 <template>
   <div class="greetings">
+    <div class="text-5xl text-green-primary mb-3">MQTTX</div>
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
