@@ -1,5 +1,5 @@
 import { Faker } from '@faker-js/faker'
-import { SimulatePubOptions } from 'types'
+import { SimulatePubOptions } from 'mqttx'
 
 const calculateEnergyConsumption = (faker: Faker, maxPower: number) => {
   const ratedPower = maxPower * 1000

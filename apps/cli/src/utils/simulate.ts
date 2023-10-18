@@ -1,7 +1,7 @@
 import { faker } from '@faker-js/faker'
 import * as fs from 'fs'
 import * as path from 'path'
-import { Simulator, SimulatePubOptions } from 'types'
+import { Simulator, SimulatePubOptions } from 'mqttx'
 
 const scenarioFolder = path.join(__dirname, '../scenarios')
 

@@ -12,7 +12,7 @@ import {
   BenchSubscribeOptions,
   CommandType,
   SimulatePubOptions,
-} from 'types'
+} from 'mqttx'
 
 const defaultPath = `${process.cwd()}/mqttx-cli-config.json`
 

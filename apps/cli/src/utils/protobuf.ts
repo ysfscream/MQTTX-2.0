@@ -1,7 +1,7 @@
 import protobuf from 'protobufjs'
 import signale from './signale'
 import { transformPBJSError } from './protobufErrors'
-import { FormatType } from 'types'
+import { FormatType } from 'mqttx'
 
 export const serializeProtobufToBuffer = (
   raw: string | Buffer,

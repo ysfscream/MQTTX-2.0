@@ -78,6 +78,9 @@ importers:
       '@types/js-yaml':
         specifier: ^4.0.5
         version: 4.0.5
+      '@types/mqttx':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@types/node':
         specifier: ^17.0.43
         version: 17.0.45
@@ -99,9 +102,6 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
-      types:
-        specifier: workspace:*
-        version: link:../../packages/types
 
   apps/desktop:
     dependencies:
@@ -118,6 +118,9 @@ importers:
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
         version: 1.0.1(@types/node@17.0.45)
+      '@types/mqttx':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@vitejs/plugin-vue':
         specifier: ^4.3.1
         version: 4.3.1(vite@4.4.9)(vue@3.3.4)
@@ -151,9 +154,6 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
-      types:
-        specifier: workspace:*
-        version: link:../../packages/types
       typescript:
         specifier: ^5.1.6
         version: 5.1.6
@@ -176,6 +176,9 @@ importers:
       '@tsconfig/node18':
         specifier: ^18.2.2
         version: 18.2.2
+      '@types/mqttx':
+        specifier: workspace:*
+        version: link:../../packages/types
       '@types/node':
         specifier: ^17.0.43
         version: 17.0.45
@@ -212,9 +215,6 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
-      types:
-        specifier: workspace:*
-        version: link:../../packages/types
       typescript:
         specifier: ~5.2.0
         version: 5.2.2

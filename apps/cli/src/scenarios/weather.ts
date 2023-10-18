@@ -1,5 +1,5 @@
 import { Faker } from '@faker-js/faker'
-import { SimulatePubOptions } from 'types'
+import { SimulatePubOptions } from 'mqttx'
 
 const dataCache: Record<string, any> = {}
 

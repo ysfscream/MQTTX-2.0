@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import Table from 'cli-table3'
-import { LsOptions } from 'types'
+import { LsOptions } from 'mqttx'
 
 interface Scenario {
   name: string

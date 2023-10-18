@@ -5,7 +5,7 @@ import delay from '../utils/delay'
 import convertPayload from '../utils/convertPayload'
 import { saveConfig, loadConfig } from '../utils/config'
 import { deserializeBufferToProtobuf } from '../utils/protobuf'
-import { FormatType, SubscribeOptions, BenchSubscribeOptions } from 'types'
+import { FormatType, SubscribeOptions, BenchSubscribeOptions } from 'mqttx'
 
 const processReceivedMessage = (
   payload: Buffer,

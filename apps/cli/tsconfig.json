@@ -2,7 +2,9 @@
   "extends": "tsconfig/cli.json",
   "include": ["src"],
   "compilerOptions": {
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "typeRoots": [ "./node_modules/@types" ],
+    "types": ["signale", "mqttx", "node"],
   },
   "exclude": ["node_modules", "dist", "bin"]
 }

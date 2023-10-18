@@ -11,7 +11,7 @@ import { saveConfig, loadConfig } from '../utils/config'
 import { loadSimulator } from '../utils/simulate'
 import { serializeProtobufToBuffer } from '../utils/protobuf'
 import convertPayload from '../utils/convertPayload'
-import { FormatType, PublishOptions, CommandType, BenchPublishOptions, SimulatePubOptions, Simulator } from 'types'
+import { FormatType, PublishOptions, CommandType, BenchPublishOptions, SimulatePubOptions, Simulator } from 'mqttx'
 
 const processPublishMessage = (
   message: string | Buffer,

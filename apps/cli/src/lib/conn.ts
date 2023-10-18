@@ -3,7 +3,7 @@ import { Signale, signale, basicLog, benchLog } from '../utils/signale'
 import { parseConnectOptions } from '../utils/parse'
 import delay from '../utils/delay'
 import { saveConfig, loadConfig } from '../utils/config'
-import { ConnectOptions, BenchConnectOptions } from 'types'
+import { ConnectOptions, BenchConnectOptions } from 'mqttx'
 
 const conn = (options: ConnectOptions) => {
   const { save, config } = options

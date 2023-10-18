@@ -4,7 +4,7 @@ import { getSpecialTypesOption } from '../utils/generator'
 
 import { IClientOptions, IClientPublishOptions, IClientSubscribeOptions } from 'mqtt'
 import { getLocalScenarioList, getScenarioFilePath } from './simulate'
-import { CommandType, ConnectOptions, PublishOptions, SubscribeOptions } from 'types'
+import { CommandType, ConnectOptions, PublishOptions, SubscribeOptions } from 'mqttx'
 
 const parseNumber = (value: string) => {
   const parsedValue = Number(value)

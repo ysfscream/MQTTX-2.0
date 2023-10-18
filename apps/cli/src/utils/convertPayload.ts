@@ -1,5 +1,5 @@
 import chalk from 'chalk'
-import { FormatType } from 'types'
+import { FormatType } from 'mqttx'
 
 const convertJSON = (value: Buffer | string, action: 'encode' | 'decode') => {
   try {

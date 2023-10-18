@@ -31,7 +31,7 @@
     "electron-vite": "^1.0.27",
     "eslint-config-custom": "workspace:*",
     "sass": "^1.69.3",
-    "types": "workspace:*",
+    "@types/mqttx": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^5.1.6",
     "tailwindcss": "^3.3.3",
