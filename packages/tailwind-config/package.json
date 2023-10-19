@@ -1,9 +1,9 @@
 {
-  "name": "tailwind-config",
+  "name": "@mqttx/tailwind-config",
   "version": "0.0.0",
   "private": true,
-  "main": "tailwind.config.ts.ts",
-  "types": "tailwind.config.ts.ts",
+  "main": "base.config.ts",
+  "types": "base.config.ts",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }

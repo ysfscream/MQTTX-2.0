@@ -1,4 +1,4 @@
-import baseConfig from 'tailwind-config/base.config'
+import baseConfig from '@mqttx/tailwind-config/base.config'
 import { Config } from 'tailwindcss'
 
 const config: Config = {

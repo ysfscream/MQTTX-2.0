@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/cli.json",
+  "extends": "@mqttx/tsconfig/cli.json",
   "include": ["src"],
   "compilerOptions": {
     "outDir": "./dist",

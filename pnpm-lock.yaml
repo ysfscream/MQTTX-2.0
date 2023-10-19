@@ -8,15 +8,15 @@ importers:
 
   .:
     devDependencies:
+      '@mqttx/tsconfig':
+        specifier: workspace:*
+        version: link:packages/tsconfig
       eslint:
         specifier: ^8.48.0
         version: 8.48.0
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:packages/tsconfig
       turbo:
         specifier: latest
         version: 1.10.15
@@ -72,6 +72,9 @@ importers:
       '@faker-js/faker':
         specifier: ^7.6.0
         version: 7.6.0
+      '@mqttx/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       '@types/concat-stream':
         specifier: ^2.0.0
         version: 2.0.0
@@ -99,9 +102,6 @@ importers:
       '@types/ws':
         specifier: ^8.5.3
         version: 8.5.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
 
   apps/desktop:
     dependencies:
@@ -118,6 +118,12 @@ importers:
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
         version: 1.0.1(@types/node@17.0.45)
+      '@mqttx/tailwind-config':
+        specifier: workspace:*
+        version: link:../../packages/tailwind-config
+      '@mqttx/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       '@types/mqttx':
         specifier: workspace:*
         version: link:../../packages/types
@@ -145,15 +151,9 @@ importers:
       sass:
         specifier: ^1.69.3
         version: 1.69.3
-      tailwind-config:
-        specifier: workspace:*
-        version: link:../../packages/tailwind-config
       tailwindcss:
         specifier: ^3.3.3
         version: 3.3.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       typescript:
         specifier: ^5.1.6
         version: 5.1.6
@@ -173,6 +173,12 @@ importers:
         specifier: ^3.3.4
         version: 3.3.4
     devDependencies:
+      '@mqttx/tailwind-config':
+        specifier: workspace:*
+        version: link:../../packages/tailwind-config
+      '@mqttx/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       '@tsconfig/node18':
         specifier: ^18.2.2
         version: 18.2.2
@@ -206,15 +212,9 @@ importers:
       sass:
         specifier: ^1.69.3
         version: 1.69.3
-      tailwind-config:
-        specifier: workspace:*
-        version: link:../../packages/tailwind-config
       tailwindcss:
         specifier: ^3.3.3
         version: 3.3.3
-      tsconfig:
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       typescript:
         specifier: ~5.2.0
         version: 5.2.2

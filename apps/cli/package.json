@@ -48,7 +48,7 @@
     "@types/signale": "^1.4.4",
     "@types/split2": "^3.2.1",
     "@types/ws": "^8.5.3",
-    "tsconfig": "workspace:*",
+    "@mqttx/tsconfig": "workspace:*",
     "@types/mqttx": "workspace:*"
   },
   "pkg": {
