@@ -89,7 +89,3 @@ import { MyComponent } from '@mqttx/ui'
     </div>
   </div>
 </template>
-
-<style lang="scss">
-@import './assets/css/styles.scss';
-</style>

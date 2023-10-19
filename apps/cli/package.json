@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "dev": "tsc -w",
-    "build:cli": "tsc && pkg ."
+    "build": "tsc && pkg ."
   },
   "main": "./dist/src/index.js",
   "bin": {

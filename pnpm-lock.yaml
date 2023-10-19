@@ -175,6 +175,9 @@ importers:
 
   apps/web:
     dependencies:
+      element-plus:
+        specifier: ^2.4.1
+        version: 2.4.1(vue@3.3.4)
       vue:
         specifier: ^3.3.4
         version: 3.3.4
@@ -185,6 +188,9 @@ importers:
       '@mqttx/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
+      '@mqttx/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       '@tsconfig/node18':
         specifier: ^18.2.2
         version: 18.2.2
