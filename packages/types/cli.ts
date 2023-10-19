@@ -1,4 +1,3 @@
-import { Faker } from '@faker-js/faker'
 import { MQTTVersion, Protocol, QoS } from './base'
 
 export type CommandType = 'conn' | 'pub' | 'sub' | 'benchConn' | 'benchPub' | 'benchSub' | 'simulate'
