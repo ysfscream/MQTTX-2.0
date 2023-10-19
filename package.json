@@ -6,15 +6,18 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/emqx/MQTTX",
   "scripts": {
-    "build": "turbo run build",
-    "build:mac": "turbo run build:mac",
-    "build:win": "turbo run build:win",
-    "build:linux": "turbo run build:linux",
+    "dev": "turbo run dev",
+    "dev:desktop": "turbo run dev  --filter @mqttx/ui --filter @mqttx/desktop",
+    "dev:cli": "turbo run dev --filter @mqttx/cli",
+    "dev:web": "turbo run dev  --filter @mqttx/ui --filter @mqttx/web",
     "build:cli": "turbo run build:cli",
     "build:web": "turbo run build:web",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write ."
+    "build:win": "turbo run build:win",
+    "build:linux": "turbo run build:linux",
+    "build:mac": "turbo run build:mac",
+    "build:ui": "turbo run generate:components",
+    "format": "prettier --write .",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "eslint": "^8.48.0",

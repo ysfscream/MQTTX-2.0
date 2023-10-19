@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import Versions from './components/Versions.vue'
+import { MyComponent } from '@mqttx/ui'
 </script>
 
 <template>
+  <MyComponent></MyComponent>
+
   <Versions></Versions>
 
   <svg class="hero-logo" viewBox="0 0 900 300">

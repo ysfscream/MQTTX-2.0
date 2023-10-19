@@ -1,5 +1,5 @@
 {
-  "name": "mqttx-desktop",
+  "name": "@mqttx/desktop",
   "version": "2.0.0-alpha.1",
   "description": "MQTTX Desktop - An MQTT client for the desktop",
   "author": "EMQX Team <yusf@emqx.io>",
@@ -21,26 +21,28 @@
   "dependencies": {
     "@electron-toolkit/preload": "^2.0.0",
     "@electron-toolkit/utils": "^2.0.0",
-    "electron-updater": "^6.1.1"
+    "electron-updater": "^6.1.1",
+    "element-plus": "^2.4.1"
   },
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^1.0.1",
+    "@mqttx/tailwind-config": "workspace:*",
+    "@mqttx/tsconfig": "workspace:*",
+    "@mqttx/ui": "workspace:*",
+    "@types/mqttx": "workspace:*",
     "@vitejs/plugin-vue": "^4.3.1",
+    "autoprefixer": "^10.4.16",
     "electron": "^25.6.0",
     "electron-builder": "^24.6.3",
     "electron-vite": "^1.0.27",
     "eslint-config-custom": "workspace:*",
+    "postcss": "^8.4.31",
     "sass": "^1.69.3",
-    "@types/mqttx": "workspace:*",
-    "@mqttx/tsconfig": "workspace:*",
-    "typescript": "^5.1.6",
     "tailwindcss": "^3.3.3",
-    "@mqttx/tailwind-config": "workspace:*",
+    "typescript": "^5.1.6",
     "vite": "^4.4.9",
     "vue": "^3.3.4",
-    "vue-tsc": "^1.8.8",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31"
+    "vue-tsc": "^1.8.8"
   },
   "engines": {
     "node": ">=18"
