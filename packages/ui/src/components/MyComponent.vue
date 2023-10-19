@@ -12,6 +12,6 @@ const handleClick = () => {
 <template>
   <div>
     <el-input v-model="a" class="text-2xl text-green-primary" src="https://mqttx.app" />
-    <el-button size="large" type="primary" @click="handleClick">Click MQTTX!</el-button>
+    <el-button size="small" type="primary" @click="handleClick">Click MQTTX!</el-button>
   </div>
 </template>

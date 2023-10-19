@@ -1,9 +1,21 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import Versions from './components/Versions.vue'
 import { MyComponent } from '@mqttx/ui'
+import { add, AddFunc, SubtractFunc, subtract, getMessageId } from '@mqttx/utils'
+
+const sum = ref(0)
+const _add: AddFunc = add
+sum.value = _add(1, 6)
+const count = ref(0)
+const _subtract: SubtractFunc = subtract
+count.value = _subtract(6, 1)
+const clientid = ref('clientid')
+clientid.value = getMessageId()
 </script>
 
 <template>
+  {{ clientid }} ===> {{ sum }} ===> {{ count }}
   <MyComponent></MyComponent>
 
   <Versions></Versions>

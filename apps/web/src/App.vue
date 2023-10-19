@@ -1,11 +1,17 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import { MyComponent } from '@mqttx/ui'
+import { add } from '@mqttx/utils'
+
+const sum = ref(0)
+sum.value = add(1, 2)
 </script>
 
 <template>
   <header>
+    {{ sum }}
     <MyComponent />
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
