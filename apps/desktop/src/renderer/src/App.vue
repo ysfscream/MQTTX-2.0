@@ -15,7 +15,10 @@ clientid.value = getMessageId()
 </script>
 
 <template>
-  {{ clientid }} ===> {{ sum }} ===> {{ count }}
+  <h1 class="text-2xl">From Desktop</h1>
+  <el-input v-model="count" class="mb-5"></el-input>
+  <div class="text-2xl">{{ clientid }} ===> {{ sum }} ===> {{ count }}</div>
+  <el-button type="primary" class="w-12 rounded-2xl mb-12">Click</el-button>
   <MyComponent></MyComponent>
 
   <Versions></Versions>

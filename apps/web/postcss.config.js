@@ -1,7 +1,2 @@
 /* eslint-env node */
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
+module.exports = require('@mqttx/tailwind-config/postcss.config.cjs')

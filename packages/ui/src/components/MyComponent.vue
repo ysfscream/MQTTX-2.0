@@ -2,16 +2,18 @@
 import { ref } from 'vue'
 import { ElButton } from 'element-plus'
 
-const a = ref(100)
+const num = ref(100)
 
 const handleClick = () => {
-  alert('Button from @mqttx/ui clicked!' + a.value)
+  alert('Button from @mqttx/ui clicked!' + num.value)
 }
 </script>
 
 <template>
   <div>
-    <el-input v-model="a" class="text-2xl text-green-primary" src="https://mqttx.app" />
-    <el-button size="small" type="primary" @click="handleClick">Click MQTTX!</el-button>
+    <h1 class="text-green-primary">From UI pkgs</h1>
+    <div class="mb-6 text-2xl bg-green-primary">{{ num }}</div>
+    <el-input v-model="num" class="mb-12" src="https://mqttx.app" />
+    <el-button size="small" type="primary" class="rounded-2xl" @click="handleClick">Click MQTTX!</el-button>
   </div>
 </template>

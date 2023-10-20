@@ -11,9 +11,10 @@ sum.value = add(1, 2)
 
 <template>
   <header>
-    {{ sum }}
-    <MyComponent />
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <h1 class="text-2xl text-green-primary mb-12">From Web</h1>
+    <div class="text-2xl mb-4 w-12 h-12 text-center rounded-3xl bg-green-primary">{{ sum }}</div>
+    <el-button type="primary" class="rounded-2xl mb-12">Hello</el-button>
+    <MyComponent class="mb-12" />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -25,31 +26,4 @@ sum.value = add(1, 2)
   </main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

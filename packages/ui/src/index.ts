@@ -1,3 +1,14 @@
+import 'element-plus/dist/index.css'
 import './styles/index.scss'
 
-export { default as MyComponent } from './components/MyComponent.vue'
+import { App } from 'vue'
+
+import MyComponent from './components/MyComponent.vue'
+
+export { MyComponent }
+
+export default {
+  install: (app: App) => {
+    app.component('MyComponent', MyComponent)
+  },
+}
