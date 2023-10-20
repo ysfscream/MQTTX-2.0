@@ -11,7 +11,7 @@ sum.value = add(1, 2)
 
 <template>
   <header>
-    <h1 class="text-2xl text-green-primary mb-12">From Web</h1>
+    <h1 class="text-2xl text-green-primary mb-2">From Web</h1>
     <div class="text-2xl mb-4 w-12 h-12 text-center rounded-3xl bg-green-primary">{{ sum }}</div>
     <el-button type="primary" class="rounded-2xl mb-12">Hello</el-button>
     <MyComponent class="mb-12" />

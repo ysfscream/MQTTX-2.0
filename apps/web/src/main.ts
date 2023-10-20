@@ -1,6 +1,5 @@
-import 'element-plus/dist/index.css'
-import './assets/scss/main.scss'
 import '@mqttx/ui/dist/style.css'
+import './assets/scss/main.scss'
 
 import { createApp } from 'vue'
 import ElementPlus from 'element-plus'

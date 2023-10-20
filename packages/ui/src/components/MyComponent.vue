@@ -13,7 +13,7 @@ const handleClick = () => {
   <div>
     <h1 class="text-green-primary">From UI pkgs</h1>
     <div class="mb-6 text-2xl bg-green-primary">{{ num }}</div>
-    <el-input v-model="num" class="mb-12" src="https://mqttx.app" />
-    <el-button size="small" type="primary" class="rounded-2xl" @click="handleClick">Click MQTTX!</el-button>
+    <el-input v-model="num" class="mb-12" />
+    <el-button size="small" type="primary" class="rounded-xl" @click="handleClick">Click MQTTX!</el-button>
   </div>
 </template>
